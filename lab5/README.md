@@ -46,7 +46,9 @@
 | 1         |  0 |  1 |  x |  x |
 
 SW E1 E0 + SW E1’ E0 
+
 SW E0 (E1+E1’) 
+
 SW E0 
 
 ### **K1**
@@ -57,8 +59,11 @@ SW E0
 | 1         |  1 |  1 |  x |  x |
 
 SW E1 E0’ + SW E1 E0 + SW E1’ E0’ + SW E1’ E0 
+
 SW E1 (E0’+E0) + SW E1’ (E0’+E0) 
+
 SW (E1+E1’) 
+
 SW 
 
 ### **J0**
@@ -69,8 +74,11 @@ SW
 | 1         |  1 |  x |  x |  0 |
 
 SW E1 E0' + SW E1’ E0' 
+
 SW E0’ (E1+E1’) 
+
 SW E0’ 
+
 
 ### **K0**
 
@@ -80,7 +88,11 @@ SW E0’
 | 1         |  1 |  1 |  x |  x |
 
 SW E1 E0’ + SW E1 E0 + SW E1’ E0’ + SW E1’ E0 
+
 SW E1 (E0’+E0) + SW E1’ (E0’+E0) 
+
 SW (E1+E1’) 
+
 SW 
+
 
